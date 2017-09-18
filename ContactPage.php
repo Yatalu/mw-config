@@ -29,13 +29,13 @@ if ( $wgDBname == 'ayrshirewiki' ) {
 	);
 }
 
-if ( $wgDBname == 'christipediawiki' ) {
+if ( $wgDBname == 'cdcwiki' ) {
 	$wgContactConfig['default'] = array(
-		'RecipientUser' => 'Kees Langeveld',
+		'RecipientUser' => 'NonstickRon',
 		'SenderEmail' => $wgPasswordSender,
 		'SenderName' => 'Miraheze No Reply',
 		'RequireDetails' => true,
-		'IncludeIP' => false, // No privy
+		'IncludeIP' => false, // Lets not do this ever for privacy (unless offical forms)
 		'AdditionalFields' => array(),
 		'DisplayFormat' => 'table',
 		'RLModules' => array(),
@@ -43,13 +43,13 @@ if ( $wgDBname == 'christipediawiki' ) {
 	);
 }
 
-if ( $wgDBname == 'elementswiki' ) {
+if ( $wgDBname == 'christipediawiki' ) {
 	$wgContactConfig['default'] = array(
-		'RecipientUser' => 'DeltaQuad',
+		'RecipientUser' => 'Kees Langeveld',
 		'SenderEmail' => $wgPasswordSender,
 		'SenderName' => 'Miraheze No Reply',
 		'RequireDetails' => true,
-		'IncludeIP' => false,
+		'IncludeIP' => false, // No privy
 		'AdditionalFields' => array(),
 		'DisplayFormat' => 'table',
 		'RLModules' => array(),
